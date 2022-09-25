@@ -33,7 +33,7 @@ input, button {
 .input_section {
     display: flex;
     flex-direction: column;
-    padding: 16px;
+    padding: 40px;
     border: 1px solid black;
     border-radius: 10px;
 }
@@ -226,7 +226,7 @@ button {
     width: 40px;
     height: 40px;
 
-    background: url('images/off-search.png');
+    background: url('../images/off-search.png');
     background-size: contain;
     margin-left: auto;
     cursor: pointer;
@@ -234,6 +234,6 @@ button {
 }
 
 #searchSubmit:hover {
-    background: url('images/on-search.png');
+    background: url('../images/on-search.png');
     background-size: contain;
 }
